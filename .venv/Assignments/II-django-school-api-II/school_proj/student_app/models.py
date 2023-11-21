@@ -47,3 +47,6 @@ class Student(models.Model):
     def student_status(self):
         self.good_student = not self.good_student
         self.save()
+
+    def helloWorld():
+        return 'Hello'
